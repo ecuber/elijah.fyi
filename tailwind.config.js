@@ -5,9 +5,16 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    fontFamily: {
+      sans: ['Ubuntu', 'sans-serif'],
+      display: ['IBM Plex Sans', 'display'],
+    },
     extend: {
       colors: {
-        primary: '#7c3aed',
+        primary: '#0D1A26',
+        secondary: '#D45498',
+        light: '#E0F2FF',
+        'light-2': '#ABC9E3',
       },
       keyframes: {
         fadein: {

@@ -22,6 +22,10 @@ module.exports = {
     '@typescript-eslint',
     'import',
   ],
+  globals: {
+    React: 'readonly',
+    JSX: 'readonly',
+  },
   settings: {
     'import/resolver': {
       typescript: {
@@ -33,5 +37,6 @@ module.exports = {
     'react/jsx-filename-extension': [1, { extensions: ['.tsx'] }],
     'react/react-in-jsx-scope': 'off',
     'react/function-component-definition': 'off',
+    'react/require-default-props': 'off',
   },
 };
