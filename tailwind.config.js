@@ -8,6 +8,7 @@ module.exports = {
     fontFamily: {
       sans: ['Ubuntu', 'sans-serif'],
       display: ['IBM Plex Sans', 'display'],
+      mono: ['Overpass Mono', 'mono'],
     },
     extend: {
       colors: {

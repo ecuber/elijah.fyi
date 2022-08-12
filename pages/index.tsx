@@ -10,11 +10,11 @@ const Home: NextPage = () => (
     <div className="w-[100vw] h-[105vh] flex items-center justify-center bg-primary">
       <div className="flex flex-col mt-[-5vh] xl:ml-[-20rem] relative">
         <Header />
-        <div className="text-[4rem] sm:text-[6rem] transition font-sans">
+        <div className="text-[3rem] xs:text-[5rem] sm:text-[6rem] transition font-sans">
           <span className="text-secondary font-extralight mr-2">elijah</span>
           <span className="text-light font-semibold font-display ">sippel</span>
         </div>
-        <div className="text-light-2 flex gap-4">
+        <div className="text-light-2 flex flex-col sm:flex-row gap-4 font-mono tracking-tight">
           <a className="inline-flex gap-1" href="https://github.com/ecuber" target="_blank" rel="noreferrer">
             <Icon><VscGithubAlt /></Icon>
             {' ecuber'}
@@ -24,7 +24,7 @@ const Home: NextPage = () => (
             {' esippel@umass.edu'}
           </a>
           <a className="inline-flex gap-1" href="https://linkedin.com/in/elijah-sippel" target="_blank" rel="noreferrer">
-            <Icon className="top-0.5"><RiLinkedinFill /></Icon>
+            <Icon><RiLinkedinFill /></Icon>
             {' elijah-sippel'}
           </a>
         </div>

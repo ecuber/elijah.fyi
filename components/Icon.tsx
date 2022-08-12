@@ -5,7 +5,7 @@ interface IconProps {
 
 export default function Icon({ children, className }: IconProps) {
   return (
-    <i className={`inline-flex text-lg relative top-1 ${className}`}>
+    <i className={`inline-flex relative top-[0.0625rem] sm:top-0.5 ${className}`}>
       {children}
     </i>
   );
