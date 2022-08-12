@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+// eslint-disable-next-line import/no-extraneous-dependencies
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx}',
@@ -9,6 +12,10 @@ module.exports = {
       sans: ['Ubuntu', 'sans-serif'],
       display: ['IBM Plex Sans', 'display'],
       mono: ['Overpass Mono', 'mono'],
+    },
+    screens: {
+      xs: '480px',
+      ...defaultTheme.screens,
     },
     extend: {
       colors: {
