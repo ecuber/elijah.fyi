@@ -1,41 +1,42 @@
 import type { NextPage } from 'next';
-import Header from '@components/Header';
-import { VscGithubInverted } from 'react-icons/vsc';
-import { IoMdMail } from 'react-icons/io';
-import { SiLinkedin } from 'react-icons/si';
-import Icon from '@components/Icon';
+import TransitionWipe from '@components/TransitionWipe';
+import Wave from '@components/Wave';
+import Socials from '@components/Socials';
+import Moon from '@components/Moon';
+import { HiChevronDoubleDown } from 'react-icons/hi';
+import { motion } from 'framer-motion';
 
 const Home: NextPage = () => (
   <div className="flex flex-col text-sans">
     <div className="w-[100vw] h-[105vh] flex items-center justify-center bg-primary">
-      <div className="flex flex-col mt-[-10vh] xl:ml-[-20rem] relative">
-        <Header />
-        <div className="text-[3rem] xs:text-[4rem] sm:text-[6rem] transition font-sans">
+      <TransitionWipe />
+      <motion.a
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1 }}
+        href="#start"
+        className="absolute mx-auto bottom-10 text-light-2 animate-bounce hover:text-accent transition duration-300"
+      >
+        <HiChevronDoubleDown />
+      </motion.a>
+      <div className="flex flex-col mt-[-10vh] relative">
+        <Moon />
+        <div className="text-[3.5rem] xs:text-[4rem] sm:text-[6rem] transition font-sans z-[1]">
           <span className="text-secondary font-extralight mr-2">elijah</span>
           <span className="text-light font-semibold font-display ">sippel</span>
         </div>
-        <div className="text-light-2 flex flex-col sm:flex-row gap-4 font-mono tracking-tight">
-          <a className="inline-flex gap-1" href="https://github.com/ecuber" target="_blank" rel="noreferrer">
-            <Icon><VscGithubInverted /></Icon>
-            {' ecuber'}
-          </a>
-          <a className="inline-flex gap-1" href="mailto:esippel@umass.edu" target="_blank" rel="noreferrer">
-            <Icon><IoMdMail /></Icon>
-            {' esippel@umass.edu'}
-          </a>
-          <a className="inline-flex gap-1" href="https://linkedin.com/in/elijah-sippel" target="_blank" rel="noreferrer">
-            <Icon><SiLinkedin /></Icon>
-            {' elijah-sippel'}
-          </a>
-        </div>
+        <Socials />
       </div>
     </div>
-    <main className="w-full grow px-3 pt-12 sm:px-0 bg-white pb-48">
+    <div className="w-full overflow-x-clip h-[133px]">
+      <Wave />
+    </div>
+    <main className="w-full grow px-3 pt-12 sm:px-0 bg-dark-2 text-light pb-48">
       <div className="max-w-prose m-auto flex flex-col gap-3">
-        <h4>Hello!</h4>
+        <h3 id="start">Hello!</h3>
         <p>
           I&apos;m Elijah, an undergraduate computer science student at UMass Amherst 🧑🏽‍💻🐒.
-          I&apos;m most into web development—frontend is my forte, but I&apos;ve also been messing
+          Frontend web development is my forte, but I&apos;ve also been messing
           with full stack technologies for a while now. TypeScript will always have my
           heart ❤️
         </p>
