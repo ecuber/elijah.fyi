@@ -4,7 +4,7 @@ import { SiLinkedin } from 'react-icons/si';
 import { motion } from 'framer-motion';
 import Icon from '@components/Icon';
 
-const linkClasses = 'inline-flex gap-1 text-light-2 hover:text-accent transition-colors';
+const linkClasses = 'inline-flex gap-1 pb-2 text-light-2 hover:text-accent transition-colors';
 
 export default function Socials() {
   return (

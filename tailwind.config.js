@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ['Ubuntu', 'sans-serif'],
-      display: ['IBM Plex Sans', 'display'],
+      display: ['IBM Plex Sans', 'sans-serif', 'display'],
       mono: ['Overpass Mono', 'mono'],
     },
     screens: {
