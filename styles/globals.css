@@ -17,6 +17,11 @@
     @apply text-lg;
     @apply font-bold;
   }
+  p {
+    @apply text-lg;
+    @apply font-sans;
+    @apply mt-2;
+  }
 }
 
 html,
@@ -25,6 +30,9 @@ body {
   padding: 0;
   margin: 0;
   background-color: theme('colors.primary');
+  overflow: overlay;
+  max-width: 100vw;
+  color-scheme: dark;
 }
 
 .hover-underline {
