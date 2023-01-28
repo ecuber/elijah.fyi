@@ -35,10 +35,9 @@ const Home: NextPage = () => (
       <div className="max-w-prose m-auto flex flex-col gap-3">
         <h3 id="start">Hello!</h3>
         <p>
-          I&apos;m Elijah, an undergraduate computer science student at UMass Amherst 🧑🏽‍💻🐒.
+          I&apos;m Elijah, an undergraduate computer science and math student at UMass Amherst.
           Frontend web development is my forte, but I&apos;ve also been messing
-          with full stack technologies for a while now. TypeScript will always have my
-          heart ❤️
+          with full stack technologies for a while now. Live, laugh, love TypeScript :)
         </p>
         <p>
           My last internship was at RelationalAI where I created a data-informed, interactive
