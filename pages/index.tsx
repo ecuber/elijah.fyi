@@ -41,7 +41,7 @@ const Home: NextPage = () => (
         </p>
         <p>
           My last internship was at RelationalAI where I created a data-informed, interactive
-          diagram component for a user training website written with TS, Next.js, and TailwindCSS 🌊
+          diagram component for a user training website written with TS, Next.js, and TailwindCSS.
         </p>
         <p>
           In addition to CS, I&apos;m passionate about using technology for education. Whether
