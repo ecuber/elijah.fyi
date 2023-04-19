@@ -35,18 +35,20 @@ const Home: NextPage = () => (
       <div className="max-w-prose m-auto flex flex-col gap-3">
         <h3 id="start">Hello!</h3>
         <p>
-          I&apos;m Elijah, an undergraduate computer science and math student at UMass Amherst.
-          Frontend web development is my forte, but I&apos;ve also been messing
-          with full stack technologies for a while now. Live, laugh, love TypeScript :)
+          I&apos;m Elijah, an undergraduate student at UMass Amherst double-majoring in computer science and statistics/data science.
+          Most of my professional experience is in frontend web development, and in my personal projects I've
+          done work on the full stack from databases to web servers and cloud hosting.
         </p>
         <p>
           My last internship was at RelationalAI where I created a data-informed, interactive
           diagram component for a user training website written with TS, Next.js, and TailwindCSS.
         </p>
         <p>
-          In addition to CS, I&apos;m passionate about using technology for education. Whether
-          it&apos;s making calculus visualizations or visualizing rudimentary machine learning
-          concepts, I love creating tools that help students learn more effectively.
+          In addition to CS, I&apos;m passionate about using technology for things that matter to me personally—as a learner and teacher at
+          heart, these projects often have to do with education. Whether it&apos;s making
+          <a href="https://elijahcalc.netlify.app/euler/" target="_blank" rel="noopener noreferrer"> calculus visualizations</a>
+          or <a href="https://beautifuldatascience.netlify.app/" target="_blank" rel="noopener noreferrer">visualizing machine learning concepts</a>,
+          I have a lot of fun creating tools that help students learn more effectively.
         </p>
         <p>
           Lots more coming to this website soon.
