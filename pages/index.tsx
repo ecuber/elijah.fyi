@@ -48,10 +48,10 @@ const Home: NextPage = () => (
           In addition to CS, I&apos;m passionate about using technology for things that matter
           to me personally—as a learner and teacher at
           heart, these projects often have to do with education. Whether it&apos;s making
-          <a href="https://elijahcalc.netlify.app/euler/" target="_blank" rel="noopener noreferrer"> calculus visualizations</a>
+          <a className="text-light-2 hover:text-accent transition-colors" href="https://elijahcalc.netlify.app/euler/" target="_blank" rel="noopener noreferrer"> calculus visualizations </a>
           or
-          <a href="https://beautifuldatascience.netlify.app/" target="_blank" rel="noopener noreferrer">visualizing machine learning concepts</a>
-          , I have a lot of fun creating tools that help students learn more effectively.
+          <a className="text-light-2 hover:text-accent transition-colors" href="https://beautifuldatascience.netlify.app/" target="_blank" rel="noopener noreferrer"> visualizing machine learning concepts, </a>
+          I have a lot of fun creating tools that help students learn more effectively.
         </p>
         <p>
           Lots more coming to this website soon.
