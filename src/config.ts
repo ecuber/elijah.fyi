@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://elijah.fyi/",
   author: "Elijah Sippel",
   desc: "Elijah Sippel is a student at UMass Amherst. This is his personal website, portfolio, and blog.",
-  title: "elijah.fyi",
+  title: "Elijah Sippel",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
