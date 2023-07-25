@@ -11,6 +11,8 @@ import getSortedPosts from "@utils/getSortedPosts";
 import slugify from "@utils/slugify";
 import { SOCIALS } from "@config";
 
+import headshot from "../images/headshot-green.png"
+
 const posts = await getCollection("blog");
 
 const sortedPosts = getSortedPosts(posts);
@@ -26,7 +28,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       <img
         class="rounded-[50%] drop-shadow-2xl dark:brightness-100 brightness-125 hidden md:block md:float-right md:m-2"
         style="shape-outside: circle();"
-        src="/assets/headshot-green.png"
+        src={headshot}
         alt="A very handsome fella (my headshot)"
         width="230">
       <h1 class="transition font-display z-[1]">
@@ -82,7 +84,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       <img
         class="rounded-[50%] dark:brightness-100 brightness-125 drop-shadow-2xl m-auto md:hidden"
         style="shape-outside: circle();"
-        src="/assets/headshot-green.png"
+        src={headshot}
         alt="A very handsome fella (my headshot)"
         width="250">
     </section>

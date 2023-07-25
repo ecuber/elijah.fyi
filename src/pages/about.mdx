@@ -2,14 +2,18 @@
 layout: ../layouts/AboutLayout.astro
 title: "About Me"
 ---
+import rai from '../images/rai.gif'
+import some1 from '../images/some1.gif'
+import umass from '../images/umass.png'
 
-<img class="hidden md:block float-right rounded-[50%] relative m-0.5 top-[-3rem]" style="border-outside:circle();" src="/assets/umass.png" id="seal" width="200" alt="UMass seal">
+
+<img class="hidden md:block float-right rounded-[50%] relative m-0.5 top-[-3rem]" style="border-outside:circle();" src={umass} id="seal" width="200" alt="UMass seal"/>
 
 My name is Elijah Sippel—I'm a second-year undergraduate at <a href="https://www.cics.umass.edu/" target="_blank">UMass Amherst</a>
 double-majoring in computer science and statistics. I'm most passionate about helping people and using what I know to 
 build solutions to real-world problems. 
 
-<img class="visible md:hidden rounded-[50%] w-[200px]" style="border-outside:circle();" src="/assets/umass.png" id="seal" width="200" alt="UMass seal">
+<img class="visible md:hidden rounded-[50%] w-[200px]" style="border-outside:circle();" src={umass} id="seal" width="200" alt="UMass seal"/>
 
 ---
 
@@ -31,7 +35,7 @@ The main technologies I used for this project were Docker, Bash scripts, Python,
 ---
 
 ### RelationalAI
-**Software Engineering Intern** — *July 2022 - August 2022*
+**Software Engineering Intern** — *July 2022 - August 2022*
 
 At [RAI](https://relational.ai), a database startup, I developed an graphic interface for visualizing and interacting
 with data based on  [object role modeling](https://en.wikipedia.org/wiki/Object%E2%80%93role_modeling). I implemented
@@ -40,14 +44,14 @@ and deployed my tool to a company training site for new users of the company's s
 I built the tool with TypeScript, React, and TailwindCSS on top of the existing Next.js infrastructure.
 
 <figure>
-<img src="/assets/rai.gif" alt="video demo of the tool" width="700" >
+<img src={rai} alt="video demo of the tool" width="700"/>
 <figcaption>Early version of my project (check out the UI  animations 👀).</figcaption>
 </figure>
 
 ---
 
 ### Brown University
-**Research Assistant** — *June 2021 - September 2021*
+**Research Assistant** — *June 2021 - September 2021*
 
 In high school, I worked as an intern directly under a professor in the data science department at Brown. I worked on
 creating a preliminary version of math authoring software that would allow math teachers to create visual and interactive
@@ -60,7 +64,6 @@ I submitted a demo of this program (still available [here!](https://beautifuldat
 Summer of Math Exposition 2021 contest where we placed in the top 8% of 1300 entries.
 
 <figure>
-<img src="/assets/some1.gif" alt="video demo of the website" width="700">
-
-<figcaption>The project demo we submitted to SoME 2021 (try it out yourself <a href="https://beautifuldatascience.netlify.app/" target="_blank">here!</a>)</figcaption>
+<img src={some1} alt="video demo of the website" width="700"/>
+<figcaption>The project demo we submitted to SoME 2021 (<a href="https://beautifuldatascience.netlify.app/" target="_blank">try it out yourself!</a>)</figcaption>
 </figure>
