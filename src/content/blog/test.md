@@ -1,15 +1,15 @@
 ---
 author: Elijah Sippel
-pubDatetime: 2023-07-24T21:26:00Z
-title: Test blog post
-postSlug: test
+pubDatetime: 2023-07-25T16:09:00Z
+title: Reflecting on my time at UB
+postSlug: ub-2023
 featured: false
 draft: false
 tags:
-  - experiments
+  - internship
 ogImage: ""
 description:
-  An experimental post to try out Astro + the AstroPaper theme's Markdown formatting.
+  Some thoughts about the summer I spent working as a research intern at UB. (testing out Astro markdown formatting)
 ---
 
 Here are some rules/recommendations, tips & ticks for creating new posts in AstroPaper blog theme.

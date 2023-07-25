@@ -22,56 +22,65 @@ module.exports = {
     // if existing Tailwind color palette will be used
 
     extend: {
-    textColor: {
-      skin: {
-        base: withOpacity("--color-text-base"),
-        accent: withOpacity("--color-accent"),
-        secondary: withOpacity("--color-secondary"),
-        inverted: withOpacity("--color-fill"),
+      colors: {
+        skin: {
+          fill: withOpacity("--color-fill"),
+          accent: withOpacity("--color-accent"),
+          base: withOpacity("--color-text-base"),
+          card: withOpacity("--color-card"),
+          "card-muted": withOpacity("--color-card-muted"),
+        },
       },
-    },
-    backgroundColor: {
-      skin: {
-        fill: withOpacity("--color-fill"),
-        accent: withOpacity("--color-accent"),
-        inverted: withOpacity("--color-text-base"),
-        card: withOpacity("--color-card"),
-        "card-muted": withOpacity("--color-card-muted"),
+      textColor: {
+        skin: {
+          base: withOpacity("--color-text-base"),
+          accent: withOpacity("--color-accent"),
+          secondary: withOpacity("--color-secondary"),
+          inverted: withOpacity("--color-fill"),
+        },
       },
-    },
-    outlineColor: {
-      skin: {
-        fill: withOpacity("--color-accent"),
+      backgroundColor: {
+        skin: {
+          fill: withOpacity("--color-fill"),
+          accent: withOpacity("--color-accent"),
+          inverted: withOpacity("--color-text-base"),
+          card: withOpacity("--color-card"),
+          "card-muted": withOpacity("--color-card-muted"),
+        },
       },
-    },
-    borderColor: {
-      skin: {
-        line: withOpacity("--color-border"),
-        fill: withOpacity("--color-text-base"),
-        accent: withOpacity("--color-accent"),
+      outlineColor: {
+        skin: {
+          fill: withOpacity("--color-accent"),
+        },
       },
-    },
-    fill: {
-      skin: {
-        base: withOpacity("--color-text-base"),
-        accent: withOpacity("--color-accent"),
+      borderColor: {
+        skin: {
+          line: withOpacity("--color-border"),
+          fill: withOpacity("--color-text-base"),
+          accent: withOpacity("--color-accent"),
+        },
       },
-      transparent: "transparent",
-    },
-    fontFamily: {
-      sans: ['Ubuntu', 'sans-serif'],
-      display: ['IBM Plex Sans', 'sans-serif', 'display'],
-      mono: ['Overpass Mono', 'mono'],
-    },
-    keyframes: {
-      fadein: {
-        '0%': { opacity: 0 },
-        '100%': { opacity: 1 },
+      fill: {
+        skin: {
+          base: withOpacity("--color-text-base"),
+          accent: withOpacity("--color-accent"),
+        },
+        transparent: "transparent",
       },
-    },
-    animation: {
-      fadein: 'fadein 0.5s ease-out',
-    },
+      fontFamily: {
+        sans: ['Ubuntu', 'sans-serif'],
+        display: ['IBM Plex Sans', 'sans-serif', 'display'],
+        mono: ['Overpass Mono', 'mono'],
+      },
+      keyframes: {
+        fadein: {
+          '0%': { opacity: 0 },
+          '100%': { opacity: 1 },
+        },
+      },
+      animation: {
+        fadein: 'fadein 0.5s ease-out',
+      },
     },
   },
   plugins: [require("@tailwindcss/typography")],

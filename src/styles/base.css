@@ -25,6 +25,16 @@
     --color-card-muted: 154, 84, 152;
     --color-border: 90, 65, 132;
   }
+
+  #seal {
+    @apply invert;
+    @apply opacity-[85%];
+  }  
+
+  html[data-theme="dark"] #seal {
+    @apply invert-0;
+  }
+
   #sun-svg,
   html[data-theme="dark"] #moon-svg {
     display: none;
@@ -44,6 +54,7 @@
   a {
     @apply outline-2 outline-offset-1 outline-skin-fill 
     focus-visible:no-underline focus-visible:outline-dashed;
+    transition: color 275ms ease;
   }
   svg {
     @apply inline-block h-6 w-6 fill-skin-base group-hover:fill-skin-accent;
@@ -76,7 +87,9 @@
   }
   .prose a {
     @apply hover:!text-skin-accent;
+    @apply hover:cursor-pointer;
   }
+
   .prose thead th:first-child,
   tbody td:first-child,
   tfoot td:first-child {

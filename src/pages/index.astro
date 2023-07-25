@@ -24,7 +24,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <main id="main-content">
     <section id="hero">
       <img
-        class="rounded-[50%] drop-shadow-2xl hidden md:block md:float-right md:m-2"
+        class="rounded-[50%] drop-shadow-2xl dark:brightness-100 brightness-125 hidden md:block md:float-right md:m-2"
         style="shape-outside: circle();"
         src="/assets/headshot-green.png"
         alt="A very handsome fella (my headshot)"
@@ -49,23 +49,23 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </a>
 
       <p>
-        A student, maker, and leader on a journey of discovery and creativity. Read on to learn about
+        A student, engineer, and leader exploring the world of technology. Click to learn about
         my
         <LinkButton
           className="hover:text-skin-accent underline underline-offset-4 decoration-dashed"
-          href="https://github.com/satnaing/astro-paper#readme"
+          href="/about"
         >
           internships
         </LinkButton>,
         <LinkButton
           className="hover:text-skin-accent underline underline-offset-4 decoration-dashed"
-          href="https://github.com/satnaing/astro-paper#readme"
+          href="#"
         >
           projects
         </LinkButton>, and read my thoughts on all these experiences in my
         <LinkButton
           className="hover:text-skin-accent underline underline-offset-4 decoration-dashed"
-          href="https://github.com/satnaing/astro-paper#readme"
+          href="/posts"
         >
           blog
         </LinkButton>.
@@ -80,7 +80,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         )
       }
       <img
-        class="rounded-[50%] drop-shadow-2xl m-auto md:hidden"
+        class="rounded-[50%] dark:brightness-100 brightness-125 drop-shadow-2xl m-auto md:hidden"
         style="shape-outside: circle();"
         src="/assets/headshot-green.png"
         alt="A very handsome fella (my headshot)"
