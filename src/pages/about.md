@@ -5,11 +5,11 @@ title: "About Me"
 
 <img class="hidden md:block md:float-right rounded-[50%] relative m-0.5 top-[-3rem]" style="border-outside:circle();" src="/assets/umass.png" id="seal" width="200px" alt="UMass seal">
 
-I'm a second-year undergraduate at <a href="https://www.cics.umass.edu/" target="_blank">UMass Amherst</a>
+My name is Elijah Sippel—I'm a second-year undergraduate at <a href="https://www.cics.umass.edu/" target="_blank">UMass Amherst</a>
 double-majoring in computer science and statistics. I'm most passionate about helping people and using what I know to 
 build solutions to real-world problems. 
 
-<img class="visible md:hidden rounded-[50%]" style="border-outside:circle();" src="/assets/umass.png" id="seal" width="200" alt="UMass seal">
+<img class="visible md:hidden rounded-[50%] w-[200px]" style="border-outside:circle();" src="/assets/umass.png" id="seal" width="200px" alt="UMass seal">
 
 ---
 
