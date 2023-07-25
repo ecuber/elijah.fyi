@@ -9,7 +9,7 @@ I'm a second-year undergraduate at <a href="https://www.cics.umass.edu/" target=
 double-majoring in computer science and statistics. I'm most passionate about helping people and using what I know to 
 build solutions to real-world problems. 
 
-<img class="visible md:hidden rounded-[50%]" style="border-outside:circle();" src="/assets/umass.png" id="seal" width="200px" alt="UMass seal">
+<img class="visible md:hidden rounded-[50%]" style="border-outside:circle();" src="/assets/umass.png" id="seal" width="200" alt="UMass seal">
 
 ---
 
@@ -40,7 +40,7 @@ and deployed my tool to a company training site for new users of the company's s
 I built the tool with TypeScript, React, and TailwindCSS on top of the existing Next.js infrastructure.
 
 <figure>
-<img src="/assets/rai.gif" width="800px" >
+<img src="/assets/rai.gif" alt="video demo of the tool" width="800" >
 <figcaption>Early version of my project (check out the UI  animations 👀).</figcaption>
 </figure>
 
@@ -60,7 +60,7 @@ I submitted a demo of this program (still available [here!](https://beautifuldat
 Summer of Math Exposition 2021 contest where we placed in the top 8% of 1300 entries.
 
 <figure>
-<img src="/assets/some1.gif" width="800px">
+<img src="/assets/some1.gif" alt="video demo of the website" width="800">
 
 <figcaption>The project demo we submitted to SoME 2021 (try it out yourself <a href="https://beautifuldatascience.netlify.app/" target="_blank">here!</a>)</figcaption>
 </figure>
