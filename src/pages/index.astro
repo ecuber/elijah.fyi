@@ -55,7 +55,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         my
         <LinkButton
           className="hover:text-skin-accent underline underline-offset-4 decoration-dashed"
-          href="/about"
+          href="/about/"
         >
           internships
         </LinkButton>,
@@ -67,7 +67,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         </LinkButton>, and read my thoughts on all these experiences in my
         <LinkButton
           className="hover:text-skin-accent underline underline-offset-4 decoration-dashed"
-          href="/posts"
+          href="/posts/"
         >
           blog
         </LinkButton>.
@@ -119,7 +119,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
             ({ data }, index) =>
               index < 4 && (
                 <Card
-                  href={`/posts/${slugify(data)}`}
+                  href={`/posts/${slugify(data)}/`}
                   frontmatter={data}
                   secHeading={false}
                 />
@@ -128,7 +128,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         }
       </ul>
       <div class="all-posts-btn-wrapper">
-        <LinkButton href="/posts">
+        <LinkButton href="/posts/">
           All Posts
           <svg xmlns="http://www.w3.org/2000/svg"
             ><path
